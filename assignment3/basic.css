@@ -1,0 +1,54 @@
+h1{
+    color:#E61E64;
+    background-color:navy;
+}
+
+h2{
+    color:aquamarine;
+    background-color:blueviolet;
+}
+
+h3{
+    color:blueviolet;
+    background-color:aqua;
+}
+
+
+a:link{
+ color:red;
+}
+a:hover{
+    color:yellow;
+}
+a:visited{
+    color:green;
+}
+
+a{
+    text-decoration: none;
+}
+
+.makered{
+    color:red;
+    background-color:lightblue;
+}
+
+.makegreen{
+    color:green;
+    background-color:yellow;
+}
+
+.makeorange{
+    color:orange;
+    background-color:aquamarine;
+}
+.spanred{
+    color:red;
+}
+
+#makenavy{
+    background-color:navy;
+}
+#red{
+    background-color:red;
+}
