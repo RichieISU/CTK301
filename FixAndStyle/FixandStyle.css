@@ -1,0 +1,44 @@
+.makeblueish{
+    background-color:#7875FA;
+}
+h1{
+    color:white;
+}
+a{
+    color:green;
+    text-decoration: none;
+}
+a:hover{
+    color:red;
+    text-decoration:underline;
+}
+h2{
+    color:blue;
+
+}
+h3{
+    background-color:yellow;
+}
+
+.makeorange{
+    color:orange;
+}
+.makered{
+    color:red
+}
+.makegreen{
+    color:yellow;
+    background-color: green;
+}
+.makelightgreen{
+    background-color: lightgreen;
+}
+#makeyellow{
+    background-color: yellow;
+}
+.blue{
+    color:blue;
+}
+h5{
+    color:red;
+}
