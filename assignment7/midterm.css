@@ -1,0 +1,137 @@
+body{
+    background-color: grey;
+}
+#Wrapper{
+    width:1000px;
+    border: 3px solid blue;
+    background-color: white;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+header{
+    color:lightblue;
+    background-color: blue;
+    background-image: linear-gradient(to bottom, #0998eb, #0083f3, #006cf7, #0051f5, #0229eb);
+    grid-column: span 12;
+}
+nav{
+font-size: large;
+font-family: Arial, Helvetica, sans-serif;
+grid-column: span 12;
+}
+aside{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 60px;
+    background-color: lightblue;
+    grid-column: span 4;
+}
+main{
+    margin-right: 20px;
+    margin-left:30px;
+    grid-column: span 8;
+}
+footer{
+    border-top: 3px solid blue;
+    background-color: red;
+    padding:10px;
+    grid-column: span 12;
+}
+nav ul{
+    list-style-type: none;
+    padding-left: 0px;
+    padding-right:10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    border:2px solid blue ;
+    border-top:0px;
+    background-color: #0229eb;
+    background-image: linear-gradient(to bottom, #0998eb, #0083f3, #006cf7, #0051f5, #0229eb);
+}
+nav li{
+    border:2px solid blue;
+    width:230px;
+    background-color:blue;
+    color:lightblue;
+    background-image: linear-gradient(to bottom, #0998eb, #0083f3, #006cf7, #0051f5, #0229eb);
+    display: inline-block;
+}
+nav li a{
+    color:lightblue;
+    text-decoration: none;
+   margin-left: 20px;
+    display: block;
+    padding: 10px;
+}
+nav li a:hover{
+    color:white;
+}
+.float{
+    float:left;
+    border: 2px solid blue;
+    margin-right:20px;
+    margin-bottom: 10px;
+}
+h1 a{
+    color: lightblue;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-left: 15px;
+    font-style: italic;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-top:25px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color:blue;
+    border-bottom: 2px solid blue;
+}
+.justified{
+    text-align: justify;
+}
+
+main a{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+.floating{
+    float: right;
+    border: 2px solid blue;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.Evelyn{
+    width:280px;
+
+}
+.Waymond{
+    width:280px;
+
+}
+.Joy{
+    width:280px;
+}
+#span{
+padding-top: 0px;
+margin-left:0px;
+margin-right: 20px;
+margin: 20px;
+margin-top:0px;
+display: grid;
+grid-template-columns:1fr 1fr 1fr;
+grid-column: span 12;
+}
+article{
+    margin-left:15px;
+    margin-right:15px ;
+    grid-column: span 1;
+}
